@@ -1,0 +1,42 @@
+{
+	"info": {
+		"_postman_id": "3a036e74-a897-4889-832f-e74c14094100",
+		"name": "hipster-assessment",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25117275"
+	},
+	"item": [
+		{
+			"name": "ChatNow",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"question\": \"How can you help me?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/chatbot/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"chatbot",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
