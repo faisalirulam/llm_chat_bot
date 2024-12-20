@@ -1,1 +1,0 @@
-web: gunicorn hipster_chatbot_project.wsgi
